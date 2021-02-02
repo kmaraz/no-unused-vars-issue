@@ -1,0 +1,33 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "sourceRoot": "/",
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "importHelpers": true,
+    "incremental": true,
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "es2015",
+    "module": "es2020",
+    "lib": ["es2018", "dom"],
+    "rootDir": "."
+  },
+  "angularCompilerOptions": {
+    "strictTemplates": true
+  },
+  "exclude": ["**/node_modules", "**/.*/", "tmp", "dist"]
+}
